@@ -25,9 +25,29 @@ const item: Variants = {
 const Work = () => {
   const projects = [
     {
+      title: "Flight Expert B2C Website",
+      description:
+        "Bangladesh's leading online travel agency platform. Air tickets, hotels, tour packages, visas and esims booking platform for users",
+      tech: ["Next.js", "Bootstrap"],
+      image: "./img/B2C.png",
+      github: "",
+      external: "https://flightexpert.com/",
+      featured: true,
+    },
+    {
+      title: "Flight Expert B2B Website",
+      description:
+        "Air tickets and Hotel Booking platforms for thousands of agencies.",
+      tech: ["Next.js", "Bootstrap"],
+      image: "./img/B2B.png",
+      github: "",
+      external: "http://b2b.flightexpertagent.com/",
+      featured: true,
+    },
+    {
       title: "Shop Management",
       description:
-        "A simple shop management system to handle inventory, sales, billing, and reports, making daily shop operations more efficient.",
+        "A shop management system to handle inventory, sales, billing, and reports, making daily shop operations more efficient.",
       tech: [
         "Next.js",
         "TailwindCSS",
@@ -41,6 +61,7 @@ const Work = () => {
       external: "https://shop-management-nine.vercel.app/sign-in",
       featured: true,
     },
+
     {
       title: "Task Management",
       description:
