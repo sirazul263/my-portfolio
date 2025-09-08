@@ -4,6 +4,23 @@ import { motion } from "framer-motion";
 const Experience = () => {
   const jobs = [
     {
+      company: "AKIJ iBOS",
+      url: "https://ibos.io/",
+      positions: [
+        {
+          title: "Senior Software Engineer I",
+          range: "August 2025 - Present",
+          responsibilities: [
+            "Architected and developed scalable, secure, and user-friendly web applications supporting thousands of users.",
+            "Collaborated closely with front-end and back-end teams to integrate and deploy seamless features, enhancing product quality and performance.",
+            "Led code reviews and mentored junior developers to maintain high code standards and consistency.",
+            "Identified and resolved performance bottlenecks, improving app responsiveness by 25%.",
+            "Researched and implemented new technologies, driving continuous optimization and innovation.",
+          ],
+        },
+      ],
+    },
+    {
       company: "Flight Expert",
       url: "https://www.flightexpert.com.com/",
       positions: [
