@@ -1,4 +1,4 @@
-export type SocialIcon = "github" | "linkedin" | "x" | "instagram";
+export type SocialIcon = "github" | "linkedin" | "x";
 
 export type SocialLink = {
   label: string;
@@ -53,12 +53,6 @@ export const site = {
       handle: "@siraz263",
       href: "https://x.com/siraz263",
       icon: "x",
-    },
-    {
-      label: "Instagram",
-      handle: "@sirazul.islam.263",
-      href: "https://instagram.com/sirazul.islam.263",
-      icon: "instagram",
     },
   ] as SocialLink[],
 };
