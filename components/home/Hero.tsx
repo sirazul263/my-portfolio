@@ -118,7 +118,7 @@ export function Hero({ github }: { github: GithubProfile | null }) {
           <div className="relative mx-auto max-w-sm lg:max-w-none">
             <div
               aria-hidden
-              className="absolute -inset-10 -z-10 rounded-full bg-accent/20 blur-3xl"
+              className="absolute -inset-4 -z-10 rounded-full sm:-inset-10 bg-accent/20 blur-3xl"
             />
             <div className="group relative -rotate-2 transition-transform duration-700 ease-expo hover:rotate-0">
               <div

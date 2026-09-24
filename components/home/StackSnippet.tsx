@@ -96,7 +96,7 @@ export function StackSnippet() {
           </p>
         </div>
 
-        <div className="lg:col-span-8">
+        <div className="min-w-0 lg:col-span-8">
           <div className="overflow-hidden rounded-2xl border border-line bg-elevated/70 shadow-2xl shadow-black/10">
             <div className="flex items-center gap-3 border-b border-line px-4 py-2.5">
               <span className="flex gap-1.5" aria-hidden>
